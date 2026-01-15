@@ -2,14 +2,14 @@
 <html lang="hu">
 <head>
     <meta charset="UTF-8">
-    <script src="script.js" defer></script>
     <title>Todo</title>
 </head>
 <body>
 
-<input type="text" id="title">
-<button onclick="addTodo()">Mentés</button>
+<input type="text" id="title" placeholder="Új todo">
+<button id="add">Hozzáadás</button>
 
-    <ul id="todo-list"></ul>
+ <ul id="todo-list"></ul>
+<script src="script.js"></script>
 </body>
 </html>
