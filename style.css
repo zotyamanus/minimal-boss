@@ -90,15 +90,6 @@ body {
     transform 0.1s ease;
 }
 
-/* #add:hover {
-  background: #1e40af;
-} */
-
-/* #add:active {
-  transform: scale(0.96);
-} */
-
-/* TODO LIST */
 #todo-list {
   list-style: none;
   padding: 0;
@@ -106,7 +97,6 @@ body {
   width: 100%;
 }
 
-/* EGY TODO ELEM */
 .list {
   display: flex;
   align-items: center;
@@ -127,9 +117,3 @@ body {
     box-shadow 0.12s ease;
 }
 
-/* .list:hover {
-  transform: translateY(-1px);
-  box-shadow:
-    0 12px 28px rgba(0, 0, 0, 0.1),
-    0 1px 0 rgba(255, 255, 255, 0.8) inset;
-} */
